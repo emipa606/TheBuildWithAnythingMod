@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Harp"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="Harp" or defName="Harpsichord" or defName="Piano"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Harp"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Leathery</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>150</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Harpsichord"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Leathery</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>250</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Piano"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Leathery</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>340</costStuffCount>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
