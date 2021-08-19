@@ -1,5 +1,8 @@
 # Changelog for TheBuildWithAnythingMod
 
+1.0.4.0 - Check for auto fix of descripiton
+
+
 1.0.3.0 - Fixed compatibility issues
 
 
