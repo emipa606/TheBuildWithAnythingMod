@@ -1,37 +1,28 @@
 # TheBuildWithAnythingMod
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Mr. Mooses mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1667786392
 
 - Replaced the code with patches instead of overwriting vanilla defs
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/TheBuildWithAnythingMod]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Have you ever wanted a Human Leather house? What about a golden armchair? Well if so, this is the mod for you! You basically can build structures and other types of furniture out of anything. Enjoy!
 
 Please note, this may have bugs. If you encounter any please do tell me so I can attempt to fix them.
 
-Also, somethings you can&apos;t build out of every material. Like the ship parts and some other things like a smelter. This is because you originally can&apos;t build them with other materials.
+Also, somethings you can't build out of every material. Like the ship parts and some other things like a smelter. This is because you originally can't build them with other materials.
 
 Other than that, enjoy!
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
