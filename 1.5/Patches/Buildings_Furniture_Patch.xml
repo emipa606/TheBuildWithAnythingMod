@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Bed" or defName="DoubleBed" or defName="RoyalBed" or defName="AnimalSleepingBox" or defName="Stool" or defName="DiningChair" or @Name="TableBase" or defName="PlantPot" or defName="Shelf" or defName="Dresser"]/stuffCategories</xpath>
+        <value>
+          <li>Leathery</li>
+          <li>Fabric</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="HospitalBed"]/stuffCategories</xpath>
+        <value>
+          <li>Leathery</li>
+          <li>Woody</li>
+          <li>Stony</li>
+          <li>Fabric</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Bedroll" or defName="BedrollDouble" or defName="AnimalBed" or defName="Armchair"]/stuffCategories</xpath>
+        <value>
+          <li>Metallic</li>
+          <li>Woody</li>
+          <li>Stony</li>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="StandingLamp"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="StandingLamp"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>20</costStuffCount>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

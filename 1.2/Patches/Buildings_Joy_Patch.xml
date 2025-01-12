@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="HorseshoesPin" or defName="HoopstoneRing" or defName="GameOfUrBoard" or defName="ChessTable" or defName="PokerTable" or defName="BilliardsTable"]/stuffCategories</xpath>
+        <value>
+          <li>Leathery</li>
+          <li>Fabric</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="TubeTelevision"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>4</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="TubeTelevision"]/constructEffect</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TubeTelevision"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>80</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="FlatscreenTelevision"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>16</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FlatscreenTelevision"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>140</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="MegascreenTelevision"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>22</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MegascreenTelevision"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>260</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Telescope"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Telescope"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>50</costStuffCount>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
