@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="HiddenConduit" or defName="WaterproofConduit"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PowerConduit"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+          <costStuffCount>1</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="HiddenConduit"]</xpath>
+        <value>
+          <costStuffCount>2</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="HiddenConduit"]/graphicData</xpath>
+        <value>
+          <texPath>BWA_nothing</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WaterproofConduit"]</xpath>
+        <value>
+          <costStuffCount>10</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PowerSwitch"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="PowerSwitch"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Woody</li>
+            <li>Stony</li>
+            <li>Fabric</li>
+          </stuffCategories>
+          <costStuffCount>15</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="WoodFiredGenerator" or defName="WindTurbine"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WoodFiredGenerator" or defName="ChemfuelPoweredGenerator" or defName="SolarGenerator" or defName="WindTurbine"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+          <costStuffCount>100</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="ChemfuelPoweredGenerator"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>3</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Battery"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Battery"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+          <costStuffCount>70</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="SolarGenerator"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>3</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="GeothermalGenerator"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>8</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="GeothermalGenerator"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+          </stuffCategories>
+          <costStuffCount>340</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="WatermillGenerator"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>3</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WatermillGenerator"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+            <li>Woody</li>
+          </stuffCategories>
+          <costStuffCount>340</costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="GeothermalGenerator" or defName="PowerConduit" or defName="WaterproofConduit" or defName="PowerSwitch" or defName="WoodFiredGenerator" or defName="ChemfuelPoweredGenerator" or defName="Battery" or defName="SolarGenerator" or defName="SolarGenerator" or defName="WindTurbine" or defName="WatermillGenerator" or defName="HiddenConduit" or defName="BioferriteShaper" or defName="SerumCentrifuge"]/constructEffect</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
