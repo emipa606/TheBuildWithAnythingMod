@@ -282,6 +282,33 @@
           </value>
         </match>
       </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="HydroponicsBasin" or defName="DeepDrill"]/stuffCategories</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="HydroponicsBasin" or defName="DeepDrill"]</xpath>
+          <value>
+            <stuffCategories Inherit="False">
+              <li>Metallic</li>
+              <li>Leathery</li>
+              <li>Woody</li>
+              <li>Stony</li>
+              <li>Fabric</li>
+            </stuffCategories>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="HydroponicsBasin" or defName="DeepDrill"]/stuffCategories</xpath>
+          <value>
+            <stuffCategories Inherit="False">
+              <li>Metallic</li>
+              <li>Leathery</li>
+              <li>Woody</li>
+              <li>Stony</li>
+              <li>Fabric</li>
+            </stuffCategories>
+          </value>
+        </match>
+      </li>
       <li Class="PatchOperationRemove">
         <xpath>/Defs/ThingDef[defName="FermentingBarrel"]/costList</xpath>
       </li>
@@ -321,6 +348,33 @@
         <value>
           <costStuffCount>15</costStuffCount>
         </value>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="NutrientPasteDispenser" or defName="Hopper" or defName="FermentingBarrel"]/stuffCategories</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="NutrientPasteDispenser" or defName="Hopper" or defName="FermentingBarrel"]</xpath>
+          <value>
+            <stuffCategories Inherit="False">
+              <li>Metallic</li>
+              <li>Leathery</li>
+              <li>Woody</li>
+              <li>Stony</li>
+              <li>Fabric</li>
+            </stuffCategories>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="NutrientPasteDispenser" or defName="Hopper" or defName="FermentingBarrel"]/stuffCategories</xpath>
+          <value>
+            <stuffCategories Inherit="False">
+              <li>Metallic</li>
+              <li>Leathery</li>
+              <li>Woody</li>
+              <li>Stony</li>
+              <li>Fabric</li>
+            </stuffCategories>
+          </value>
+        </match>
       </li>
       <li Class="PatchOperationRemove">
         <xpath>/Defs/ThingDef[defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="ElectricStove" or defName="FueledStove" or defName="Brewery" or defName="ElectricSmelter" or defName="HydroponicsBasin" or defName="FermentingBarrel" or defName="NutrientPasteDispenser" or defName="Hopper"]/constructEffect</xpath>
