@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="BaseArtilleryBuilding" or defName="Turret_MiniTurret"]/stuffCategories</xpath>
+        <value>
+          <li>Leathery</li>
+          <li>Fabric</li>
+          <li>Woody</li>
+          <li>Stony</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Turret_Autocannon" or defName="Turret_Sniper"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentIndustrial>6</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Turret_Autocannon" or defName="Turret_Sniper"]</xpath>
+        <value>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Leathery</li>
+            <li>Fabric</li>
+            <li>Woody</li>
+            <li>Stony</li>
+          </stuffCategories>
+          <costStuffCount>390</costStuffCount>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

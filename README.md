@@ -1,15 +1,15 @@
 # [The Build With Anything Mod (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2118025145)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Mr. Mooses mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1667786392
 
 - Replaced the code with patches instead of overwriting vanilla defs
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Have you ever wanted a Human Leather house? What about a golden armchair? Well if so, this is the mod for you! You basically can build structures and other types of furniture out of anything. Enjoy!
 
@@ -20,13 +20,13 @@ Also, somethings you can't build out of every material. Like the ship parts and 
 Other than that, enjoy!
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -34,4 +34,4 @@ Other than that, enjoy!
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/TheBuildWithAnythingMod?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2118025145) | tags:  creative construction
+[![Image](https://img.shields.io/github/v/release/emipa606/TheBuildWithAnythingMod?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2118025145) | creative construction
